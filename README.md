@@ -1,4 +1,4 @@
-# Outvio-BE
+# API
 
 After pulling the repository, run the following:
   > NPM INSTALL
@@ -14,11 +14,11 @@ IP Whitelisting/Blacklisting can be done from accesscontrol.js.
 
 # Description
 
-*	Allow restricting access by user or by IP - [DONE]
-*	Set rate limit per user/IP - [DONE]
-*	Restriction should be 100/500/1000 requests per hour for an individual user - [DONE]
-*	Those numbers should be configurable from the environment - [DONE]
-*	When a user reaches the limit, in the response show an error message about current limit for that user account, and display when (time) the user can make the next request - [DONE]
+*	Allow restricting access by user or by IP
+*	Set rate limit per user/IP 
+*	Restriction should be 100/500/1000 requests per hour for an individual user 
+*	Those numbers should be configurable from the environment
+*	When a user reaches the limit, in the response show an error message about current limit for that user account, and display when (time) the user can make the next request 
 *	Bonus: keep performance in mind.
 *	Optional task: Create a different weight of request rate for every URL: 1/2/5 points per request (you can assume we have 5 different end points) depending on end point.
 
